@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(227, 32, 32);
+    background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 
     
@@ -24,4 +24,48 @@ img{
 .container{
     max-width: 1200px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 2-px;
+    /* padding-inline: ; */
+    
+}
+header{
+    border-bottom:solid 1px black;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    font-weight: 500;
+
+}
+header nav ul a:hover{
+    color: #1b1b1b;
+    
+}
+
+header nav ul a:hover{
+    color: #7700ff;
+    text-decoration: underline;
+    
+}
+header .nav-logo span{
+    color: #7700ff;
+}
+/* @media screen and   */
+@media screen and (max-width:768px){
+    header nav ul{
+        display: none;
+    }
 }
