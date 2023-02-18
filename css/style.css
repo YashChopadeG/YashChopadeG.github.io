@@ -20,3 +20,8 @@ img{
     width: 100%;
          /* for universally set the img resolution  */
 }
+/* global classes */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
