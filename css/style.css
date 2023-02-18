@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body,
+html{
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 
     
 }
@@ -160,3 +162,36 @@ hero h2{
         font-size: 2.5rem;
     }
 } 
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.about .content {
+    max-width:600px;
+    display: grid;
+    gap: 1rem;
+}
+.about .content h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+
+}
+.about .conetent h2 span{
+    color: #7700ff;
+}
+.about .content .btn{
+    margin-top: 1rem;
+
+}
+margin screen and (max-width:768px){
+    .about{
+        margin-top: 4rem;
+        margin-bottom:4rem;
+    }
+    .about .image{
+        diaplay: none;
+    }
+}
